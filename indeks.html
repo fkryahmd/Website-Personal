@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fikri Ahmad Riza - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #121212; /* Warna gelap */
+            color: #e0e0e0; /* Warna teks */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f1f1f; /* Warna latar header */
+            color: #ff4757; /* Warna merah */
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #e0e0e0;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ff4757; /* Warna merah saat hover */
+            color: #121212; /* Warna teks saat hover */
+        }
+        .container {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #ff4757; /* Warna merah border */
+        }
+        .profile h2 {
+            font-size: 2em;
+            margin: 20px 0 10px;
+        }
+        .profile p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .gallery {
+            margin-top: 40px;
+        }
+        .gallery h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #ff4757; /* Warna merah untuk judul galeri */
+        }
+        .gallery .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: #e0e0e0;
+            margin-top: 40px;
+        }
+        .contact-info {
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        .contact-info img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        .contact-info a {
+            color: #ff4757; /* Warna merah untuk tautan */
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .logo {
+            display: inline-block;
+            margin-top: 10px;
+            max-width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fikri Ahmad Riza</h1>
+        <p>Statistics student | photography</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#gallery">Photo Gallery</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="profile">
+            <img src="WhatsApp Image 2024-10-21 at 16.16.36.jpeg" alt="Foto Fikri Ahmad Riza">
+            <h2>Hello, there</h2>
+            <p>My name is Fikri Ahmad Riza, a Statistics student at the Kalimantan Institute of Technology, originally from Bontang, East Kalimantan. As someone who thrives in peaceful surroundings, I find that quiet environments fuel my personal growth and creativity. In my free time, I immerse myself in the art of photography, capturing moments that inspire me. Thank you.</p>
+        </section>        
+
+        <section id="gallery" class="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="grid">
+                <!-- Tambahkan foto-foto di sini -->
+                <img src="WhatsApp Image 2024-10-21 at 19.30.44.jpeg" alt="Foto 2">
+                <img src="WhatsApp Image 2024-10-21 at 19.30.43.jpeg" alt="Foto 3">
+                <img src="WhatsApp Image 2024-10-21 at 19.40.51.jpeg" alt="Foto 4">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>contact</h2>
+            <div class="contact-info">
+                <img src="whatsapp-logo-png-0.png" alt="WhatsApp Logo">
+                <p> <a href="https://wa.me/6282241307708">082241307708</a></p>
+            </div>
+            <div class="contact-info">
+                <img src="Instagram-Logo.png" alt="Instagram Logo">
+                <p> <a href="https://www.instagram.com/fkryahmdd_">@fkryahmdd_</a></p>
+            
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Fikri Ahmad Riza - All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+
+<style>
+    /* Efek smooth scrolling untuk seluruh halaman */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    /* Animasi hover untuk menu navigasi */
+    nav a {
+        transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+        color: #ff4757; /* Warna merah saat hover */
+    }
+</style>
